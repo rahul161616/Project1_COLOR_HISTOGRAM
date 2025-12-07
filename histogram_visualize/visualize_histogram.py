@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Correct folder path (replace with your actual folder)
-class1_dir = "../dataset/class2"  
+class1_dir = os.path.join(os.path.dirname(__file__), "..", "dataset", "class2")  
 
 # List all files in folder
 image_files = os.listdir(class1_dir)
