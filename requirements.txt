@@ -1,0 +1,9 @@
+numpy
+opencv-python
+matplotlib
+scikit-learn
+joblib
+icrawler
+simple-image-download
+beautifulsoup4
+scikit-image
